@@ -12,24 +12,25 @@
 </head>
 <body>
   <div class="container">
-  <header class="global-header">
-<a class="logo-class" href="index.html"><span>Web</span>Studio</a>
-    <nav class="nav-class">
-       
+  
+ <header class="header">
+  <a class="header__logo"><span>Web</span>Studio</a>
+    <nav class="header__nav">
       <ul>
-       <li><a class="active" href="studio.html">Studio</a></li>
-      <li class="li-class"><a href="portofolio.html">Portfolio</li>
-      <li>Contacts</li>
+       <li class="nav__li"><a class="active" href="index.html">Studio</a></li>
+      <li class="nav__li"><a href="portofolio.html">Portfolio</li>
+        <li>Contacts</li>
       </ul>
+    
     </nav>
-     <div class="icon-list">
+     <div class="header__email">
                
                 <svg>
                   <use href="./images/icons.svg/symbol-defs.svg#icon-envelope"></use>
                 </svg>
                <a class="email-class" href="emailto:info@devstudio.com">info@devstudio.com</a>
-       
-       <div class="icon-list">
+     </div>
+       <div class="header__telephone">
           
                 <svg>
                   <use href="./images/icons.svg/symbol-defs.svg#icon-smartphone"></use>
@@ -38,6 +39,7 @@
           </div>
       
   </header>
+
   </div>
   <div class="container">
  <section class="portofolio-class">
@@ -108,44 +110,50 @@
       </ul> 
     </div>
    </section>
-    <div class="bottom-class">
+  <footer class="footer">
   
-    <address class="address-class">
-      <a class="logo-class" href="index.html"><span>Web</span>Studio</a>
+    <address class="footer__address">
+      <a class="footer__logo" href="index.html"><span>Web</span>Studio</a>
        <p>695 Park Ave, NY 10065, USA</p>
-        <a class="email-class" href="emailto:info@devstudio.com">info@devstudio.com</a></li>
-      <a class="tel-class" href="tel:+12127724150">+1 212-772-4150</a>
+        <a class="footer__email" href="emailto:info@devstudio.com">info@devstudio.com</a></li>
+      <a class="footer__tel" href="tel:+12127724150">+1 212-772-4150</a>
       </address>
-      <footer class="footer-class">
- <div class="icon-footer">
+      
+ <div class="footer__icon">
      <h2>Find us on</h2>
-       <div class="icon-list">
-                <a href="https://instagram.com" class="icon" aria-label="Instagram">
+       <div class="footer__icon__list">
+                <a href="https://instagram.com" class="footer__icon" aria-label="Instagram"></a>
                 <svg>
                 <use href="./images/icons.svg/symbol-defs.svg#icon-instagram"></use>
               </svg>
               
-               <a href="https://twitter.com" class="icon" aria-label="Twitter">
-                <svg class="icon-twiter">
+               <a href="https://twitter.com" class="footer__icon" aria-label="Twitter"></a>
+                <svg class="footer__icon__twiter">
                 <use href="./images/icons.svg/symbol-defs.svg#icon-twitter"></use>
               </svg>
-              
-                   <a href="https://facebook.com" class="icon" aria-label="Facebook">
+                 <a href="https://facebook.com" class="footer__icon" aria-label="Facebook"></a>
                     <svg>
                 <use href="./images/icons.svg/symbol-defs.svg#icon-facebook"></use>
               </svg>
-                <a href="https://linkedin.com" class="icon" aria-label="LinkedIn">
+                <a href="https://linkedin.com" class="footer__icon" aria-label="LinkedIn"></a>
                   <svg>
                 <use href="./images/icons.svg/symbol-defs.svg#icon-linkedin"></use>
               </svg>
             </div>
-    
-    
+            </div>   
+        <label>
+          <div class="label__footer">
+          <h2>Subscribe to the newsletter</h2>
+          <input class="input__footer" type="E-mail" name="E-mail">
+          <button class="btn__footer">Subscribe
+            <svg class="icon__label__footer">
+              <use href="./images/icons.svg/symbol-defs.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </label>
+      </div>
+        </footer>
 
-  
-     
-  </footer>
-  
     </div>
  
 

@@ -15,7 +15,7 @@ body {
   
     
 }
-.li-class ::after  {  content: '';
+.nav__li ::after  {  content: '';
 position: absolute;
 width:0;
 height: 4px;
@@ -582,7 +582,7 @@ color: #000000;
 
 
 /* Form */
-.form-group {
+.form__group {
   position: relative;
   display: flex;
   gap: 4px;
@@ -590,12 +590,12 @@ color: #000000;
   margin-top: 40px;
 }
 
-.form-group + .form-group {
+.form__group + .form__group {
   margin-top: 10px;
 }
 
 /* Label Text */
-.form-group > *:nth-child(1) {
+.form__group > *:nth-child(1) {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -605,7 +605,7 @@ color: #000000;
 }
 
 /* Input */
-.form-group > *:nth-child(2) {
+.form__group > *:nth-child(2) {
   padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -617,16 +617,14 @@ label h2{
   color: #FFFFFF;
 }
 
-.form-group .input-with-icon {
-  padding-left: 40px;
-}
 
-.form-checkbox {
+
+.form__checkbox {
   flex-direction: row;
   gap: 8px;
 }
 
-.form-checkbox > *:nth-child(2) {
+.form__checkbox > *:nth-child(2) {
   padding: 0;
   border: none;
 }
@@ -635,22 +633,22 @@ label h2{
   resize: none;
 }
 
-.form-controls {
+.form__controls {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   padding: 10px 80 px;
 }
 
-.form .input-icon {
-  left: 12px;
+.form .form__input__icon {
+  margin-left:12px ;
   top: 50%;
   position: absolute;
   width: 12px;
   height: 12px;
 }
 
-.btn-submit {
+.form__btn {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -661,7 +659,7 @@ label h2{
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 188% */
+  
 
   display: flex;
   align-items: center;
@@ -675,8 +673,8 @@ label h2{
   max-width: 200px;
 }
 
-.btn-submit:hover,
-.btn-submit:focus {
+.form__btn:hover,
+.form__btn:focus {
   background: #1a78c5;
 }
 
@@ -684,8 +682,8 @@ label h2{
   margin-left: 40px;
 }
 
- .input-icon:focus,
-.input-icon:hover {
+ .form__input__icon:focus,
+.form__input__icon:hover {
     background: #2196F3;
     transition: var(--transition);
     cursor: pointer;
